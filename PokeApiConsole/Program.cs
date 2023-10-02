@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
+﻿using Microsoft.Extensions.DependencyInjection;
 using PokeApiNet;
 
 
