@@ -5,11 +5,11 @@ VisualStudioVersion = 25.0.1706.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiConsole", "PokeApiConsole\PokeApiConsole.csproj", "{221BB852-F54E-486F-ADB1-4CAD47F4F33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiNet", "..\PokeApiNet\PokeApiNet\PokeApiNet.csproj", "{BA761A81-5FC3-47EB-8720-58C10109AEFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiNet.Tests", "..\PokeApiNet\PokeApiNet.Tests\PokeApiNet.Tests.csproj", "{92B5231D-0FCA-4BED-B436-9E43FFB45215}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiConsoleTests", "PokeApiConsoleTests\PokeApiConsoleTests.csproj", "{F4677A1F-F9ED-455D-912D-3A54B1F9F77A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiNet", "PokeApiNet\PokeApiNet\PokeApiNet.csproj", "{124B287E-FD96-4706-BF9B-1E4E95D7DC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiNet.Tests", "PokeApiNet\PokeApiNet.Tests\PokeApiNet.Tests.csproj", "{FE1E47D3-8F71-4B11-B5DF-3D2EECA82C45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{221BB852-F54E-486F-ADB1-4CAD47F4F33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221BB852-F54E-486F-ADB1-4CAD47F4F33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221BB852-F54E-486F-ADB1-4CAD47F4F33F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA761A81-5FC3-47EB-8720-58C10109AEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA761A81-5FC3-47EB-8720-58C10109AEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA761A81-5FC3-47EB-8720-58C10109AEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA761A81-5FC3-47EB-8720-58C10109AEFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B5231D-0FCA-4BED-B436-9E43FFB45215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B5231D-0FCA-4BED-B436-9E43FFB45215}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B5231D-0FCA-4BED-B436-9E43FFB45215}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B5231D-0FCA-4BED-B436-9E43FFB45215}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4677A1F-F9ED-455D-912D-3A54B1F9F77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4677A1F-F9ED-455D-912D-3A54B1F9F77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4677A1F-F9ED-455D-912D-3A54B1F9F77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4677A1F-F9ED-455D-912D-3A54B1F9F77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124B287E-FD96-4706-BF9B-1E4E95D7DC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124B287E-FD96-4706-BF9B-1E4E95D7DC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124B287E-FD96-4706-BF9B-1E4E95D7DC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124B287E-FD96-4706-BF9B-1E4E95D7DC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1E47D3-8F71-4B11-B5DF-3D2EECA82C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1E47D3-8F71-4B11-B5DF-3D2EECA82C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1E47D3-8F71-4B11-B5DF-3D2EECA82C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1E47D3-8F71-4B11-B5DF-3D2EECA82C45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

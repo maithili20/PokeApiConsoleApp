@@ -24,5 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PokeApiConsole\PokeApiConsole.csproj" />
+    <ProjectReference Include="..\PokeApiNet\PokeApiNet\PokeApiNet.csproj" />
   </ItemGroup>
 </Project>
