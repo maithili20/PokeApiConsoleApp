@@ -1,14 +1,13 @@
-﻿using System;
-using PokeApiNet;
+﻿using PokeApiNet;
 
 namespace PokeApiConsole
 {
-	public interface IPokemonService
-	{
+    public interface IPokemonService
+    {
         void GetTypes(Pokemon pokemonData);
         void GetDamageDetails(PokeApiNet.Type pokemonType);
         void PrintDamageDetails();
-     
+
     }
 }
 
